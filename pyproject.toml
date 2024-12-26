@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_mobilesam"
+description = "NODES: Mobile SAM Model Loader, Mobile SAM Detector, Mobile SAM Predictor"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["mobile_sam @ git+https://github.com/ChaoningZhang/MobileSAM@c12dd83", "numpy==2.1.2", "timm==1.0.9"]
+
+[project.urls]
+Repository = "https://github.com/solution9th/Comfyui_mobilesam"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui_mobilesam"
+Icon = ""
