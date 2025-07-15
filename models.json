@@ -1,5 +1,5 @@
 {
-    "cuda": [
+    "common": [
         {
             "repo_id": "Pictorial/sams",
             "local_path": "models/sams",
